@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.hpengsmile.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.hpengsmile.cc/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
